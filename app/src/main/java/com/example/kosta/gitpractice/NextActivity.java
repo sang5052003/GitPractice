@@ -1,5 +1,6 @@
 package com.example.kosta.gitpractice;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,8 @@ public class NextActivity extends AppCompatActivity {
                 //ㅎㅎ
 
                 //merge
+                Intent intent = getIntent();
+                finish();
             }
         });
 
